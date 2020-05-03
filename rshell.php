@@ -153,7 +153,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
   fclose($pipes[2]);
   proc_close($process);
 
-    http_response_code(404);
+  http_response_code(404);
 
   function printit ($string) {
     if (!$daemon) {
