@@ -157,9 +157,9 @@ error was encountered while trying to use an ErrorDocument to handle the request
 
   function printit ($string) {
     if (!$daemon) {
-                   if (!$stealth = 1) {
-      print "<pre>$string\n</pre>";
-                   }
+      if (!$stealth = 1) {
+        print "<pre>$string\n</pre>";
+      }
     }
   }
   ?>
